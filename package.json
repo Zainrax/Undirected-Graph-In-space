@@ -1,0 +1,19 @@
+{
+  "name": "etude4-gui",
+  "version": "1.0.0",
+  "description": "GUI for binary search trees",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zainrax/COSC326-etude4-GraphicalUserInterface.git"
+  },
+  "author": "Patrick Baxter, Sean Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zainrax/COSC326-etude4-GraphicalUserInterface/issues"
+  },
+  "homepage": "https://github.com/Zainrax/COSC326-etude4-GraphicalUserInterface#readme"
+}
