@@ -1,10 +1,26 @@
-import BST from './BinarySearchTree.js'
-
 const canvas = document.getElementById('canvas')
-const ctx = canvas.getContext('2d')
+let parent = document.getElementById('canvas-holder')
+let bst = require('BinarySearchTree')
 
-tree = new BST()
-tree.insert(1)
-tree.insert(2)
+class Draw{
+    constructor(){
+        this.ctx = canvas.getContext('2d')
+    }
 
-tree.inOrder(val=>console.log(val))
+    drawGoose(){
+        
+    }
+}
+
+function resizeCanvas(){
+    canvas.width  = parent.offsetWidth
+    canvas.height = parent.offsetHeight
+}
+
+window.onload = () =>{
+    resizeCanvas()
+}
+
+window.onresize = () =>{
+    resizeCanvas()
+}
