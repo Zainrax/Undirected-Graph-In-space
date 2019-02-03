@@ -1,0 +1,86 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+    min-width: 1120px;
+}
+
+input{
+    text-align:center;
+ }
+
+.top-title{
+    font-size: 1.4em;
+    margin: 0;
+    color: white;
+}
+
+#start-vert,#vert1,#value-input{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#search,#connect,#delete{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+button:hover{
+    background-color: #3b3b3b;
+}
+
+button{
+    background-color: #2b2b2b;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    transition: ease-in-out 0.1s;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8vh 84vh 8vh;
+}
+
+.top-bar{
+    display: flex;
+    background-color: #3d3d3d;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    min-height: 50px;
+    min-width: 600px;
+}
+
+.main-content {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.sidebar{
+    position: absolute;
+}
+
+.bottom-bar{
+    background-color: #3d3d3d;
+    min-height: 50px;
+    min-width: 600px;
+    grid-row: 3;
+}
+
+.button{
+    cursor: pointer;
+    user-select: none; 
+    padding: 10px;
+}
+
+.input{
+    width: 65px;
+    padding: 10px 0 10px 0;
+    font-size: 1em;
+}
+
+.footer-text {
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+}
