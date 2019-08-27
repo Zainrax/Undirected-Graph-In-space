@@ -7,7 +7,7 @@ I set out to create something that was both visually appealing(Spaceships), and 
 ## Implementation
 Using Pixi.js for the visual aspects & vanilla JS for the algorithms and data structure.
 The search algorithm is Dijkstra's algorithm.
-### Features:
+## Features:
 Create, deletion, and connection of Nodes
 (AND THEY'RE SPACESHIPS)
 Animations and sprites were created by hand in Aseprite
