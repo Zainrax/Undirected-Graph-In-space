@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Space Graph</title>
+<link href="app.css" rel="stylesheet"></head>
+
+<body>
+    <div class="container">
+        <section class="top-bar">
+            <h1 class="top-title">Undirected weighted graph</h1>
+            <div>
+                <input id="start-vert" placeholder="source" class="input" type="number" min="0" max="99">
+                <input id="end-vert" placeholder="target" class="input" type="number" min="0" max="99">
+                <button id="search" class="button">Search</button>
+                <input id="vert1" placeholder="vertex" class="input" type="number" min="0" max="99">
+                <input id="vert2" placeholder="vertex" class="input" type="number" min="0" max="99">
+                <input id="weight" placeholder="weight" class="input" type="number" min="0" max="99">
+                <button id="connect" class="button">Connect</button>
+                <input id="value-input" placeholder="vertex" class="input" type="number" min="0" max="99">
+                <button id="insert" class="button">Insert</button>
+                <button id="delete" class="button">Delete</button>
+            </div>
+
+        </section>
+        <section id="canvas-holder" class="main-content">
+        </section>
+        <section class="bottom-bar">
+            <p class="footer-text">Created and maintained by Patrick Baxter & Sean Kim</P>
+        </section>
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>
