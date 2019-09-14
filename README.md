@@ -1,4 +1,4 @@
-# COSC326-etude4-GraphicalUserInterface
+# Undirected-Graph-In-space
 
 ## Description
 The project was originally created as an assignment, to visualize a data structure and provide some functionality.
